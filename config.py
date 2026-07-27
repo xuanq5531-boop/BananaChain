@@ -3,7 +3,7 @@ import streamlit as st
 
 BASE_DIR = Path(__file__).resolve().parent
 ASSETS_DIR = BASE_DIR / "assets"
-MODELS_DIR = BASE_DIR / "models"
+MODELS_DIR = BASE_DIR
 REFERENCE_IMAGE_DIR = ASSETS_DIR / "reference_images"
 
 LOGO_PATH = ASSETS_DIR / "logo.png"
