@@ -1,0 +1,42 @@
+{
+  "classes": [
+    "healthy",
+    "black sigatoka",
+    "fusarium wilt",
+    "yellow sigatoka",
+    "banana moko disease",
+    "cordana"
+  ],
+  "training_folder_classes": [
+    "healthy",
+    "black sigatoka",
+    "fusarium wilt",
+    "yellow sigatoka",
+    "banana moko disease",
+    "cordana"
+  ],
+  "class_indices": {
+    "healthy": 0,
+    "black sigatoka": 1,
+    "fusarium wilt": 2,
+    "yellow sigatoka": 3,
+    "banana moko disease": 4,
+    "cordana": 5
+  },
+  "img_size": [
+    224,
+    224
+  ],
+  "model_type": "MobileNetV2",
+  "task": "banana_disease_detection",
+  "class_weights": {
+    "healthy": 1.1020833333333333,
+    "black sigatoka": 0.7600574712643678,
+    "fusarium wilt": 0.7168021680216802,
+    "yellow sigatoka": 1.224537037037037,
+    "banana moko disease": 1.0134099616858236,
+    "cordana": 1.7287581699346406
+  },
+  "test_accuracy": 0.9519230723381042,
+  "test_loss": 0.20338259637355804
+}

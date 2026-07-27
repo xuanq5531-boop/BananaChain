@@ -1,0 +1,28 @@
+{
+  "classes": [
+    "unripe",
+    "freshripe",
+    "rotten"
+  ],
+  "display_names": {
+    "unripe": "Unripe (\u672a\u6210\u719f)",
+    "freshripe": "Ripe (\u6210\u719f)",
+    "rotten": "Rotten / Overripe (\u8150\u70c2/\u8fc7\u719f)"
+  },
+  "class_indices": {
+    "unripe": 0,
+    "freshripe": 1,
+    "rotten": 2
+  },
+  "img_size": [
+    224,
+    224
+  ],
+  "model_type": "MobileNetV2",
+  "task": "banana_ripeness_detection",
+  "fama_prices": {
+    "Pisang Berangan": 2.5,
+    "Pisang Mas": 3.8,
+    "Pisang Cavendish": 2.2
+  }
+}
